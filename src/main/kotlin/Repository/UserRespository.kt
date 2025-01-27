@@ -1,0 +1,4 @@
+package Repository
+
+interface UserRespository {
+}

@@ -1,0 +1,4 @@
+package Mapper
+
+object UserMapper {
+}
