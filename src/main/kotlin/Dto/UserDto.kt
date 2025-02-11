@@ -1,4 +1,0 @@
-package Dto
-
-class UserDto {
-}

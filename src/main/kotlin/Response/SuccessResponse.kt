@@ -1,4 +1,0 @@
-package Response
-
-class SuccessResponse {
-}
