@@ -10,7 +10,7 @@ class Role {
     @Id
     @Column(updatable = false)
     var id: Long? = null
-    var role: String? = null
+    var roleName: String? = null
     @Column(name = "user_id")
     var userId: Long? = null
     @ManyToOne

@@ -21,6 +21,7 @@ class User {
     @Column(nullable = false)
     var locked: Boolean? = null
     var disabled: Boolean? = null
+
     @OneToMany(mappedBy = "user", fetch = FetchType.EAGER)
     var roles: List<Role>? = null
 
