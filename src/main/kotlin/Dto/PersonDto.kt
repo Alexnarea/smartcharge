@@ -16,4 +16,7 @@ class PersonDto {
     var telephone: String? = null
 
     var email: String? = null
+
+    var username: String? = null
+
 }

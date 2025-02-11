@@ -9,4 +9,8 @@ class EventDto {
     var baterry: Int? = null
 
     var time: LocalTime? = null
+
+    var personId: Long? = null
+
+    var deviceId: Long? = null
 }

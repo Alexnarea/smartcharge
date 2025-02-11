@@ -5,4 +5,7 @@ class RoleDto {
     var id : Long? = null
 
     var roleName: String? = null
+
+    var userId: Long? = null
+
 }

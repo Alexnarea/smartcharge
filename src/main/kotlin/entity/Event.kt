@@ -14,6 +14,7 @@ class Event {
 
     var battery: Int? = null
 
+    @Column(nullable = false)
     var time: LocalTime? = null
 
     @ManyToOne

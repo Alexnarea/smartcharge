@@ -10,6 +10,7 @@ class User {
     @Column(updatable = false)
     var id: Long? = null
 
+    @Column(unique = true, nullable = false)
     var username: String? = null
 
     @Column(nullable = false, length = 200)
